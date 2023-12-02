@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Roboto:wght@900&display=swap');
+
+.card-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    column-gap: 80px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.card1,
+.card2,
+.card3 {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+
+    position: relative;
+}
+
+.cardImg {
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    top: -38px;
+    background-color: #3B3054;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 .cardImg img {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.cardContent h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.cardContent p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: #9E9AA7;
+    font-weight: 400;
+}
+
+.card2 {
+    top: 50px;
+}
+
+.card3 {
+    top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
