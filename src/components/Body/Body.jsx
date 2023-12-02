@@ -1,5 +1,6 @@
 import React from 'react';
 import './Body.css';
+import Card from '../Card/Card';
 
 const Body = () => {
   return (
@@ -12,6 +13,7 @@ const Body = () => {
               <p>Track how your links are performing across the web with our advanced statistics dashboard</p>
           </div>
       </div>
+      <Card />
     </div>
   )
 }
