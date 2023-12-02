@@ -5,6 +5,7 @@
 
 .container {
     background-color: #EBE9E9;
+    min-height: 860px;
 }
 
 .body-wrapper {
@@ -17,6 +18,7 @@
 .heading h3 {
     font-size: 3rem;
     font-family: 'Roboto', sans-serif;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
