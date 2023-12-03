@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import Hero from '../Hero/Hero';
 import Body from '../Body/Body';
 import Started from '../Started/Started';
+import Footer from '../Footer/Footer';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Body />
       <Started />
+      <Footer />
     </div>
   )
 }
