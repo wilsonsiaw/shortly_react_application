@@ -23,7 +23,7 @@ const Login = () => {
   }
 
   return (
-    <div className='container'>
+    <div className='loginContainer'>
       <div className='back'>
           <a href="">
             <img src={back} alt="back arrow" />
