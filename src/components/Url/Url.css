@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Poppins:wght@900&family=Roboto:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend+Deca&family=Poppins:wght@500&family=Roboto:wght@900&display=swap');
+
+.urlContainer {
+    /* border: 1px solid red; */
+    min-height: 180px;
+    width: 1300px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-image: url('../../assets/images/bg-shorten-desktop.svg');
+    background-color: #35323E;
+
+    position: absolute;
+    top: 830px;
+    left: 300px;
+}
+
+.urlFormWrapper form {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+input[type='text'] {
+    padding-left: 20px;
+}
+
+.urlFormWrapper input {
+    width: 900px;
+    height: 70px;
+    border-radius: 8px;
+}
+
+.urlBtn button {
+    border: none;
+    padding: 23px 55px;
+    border-radius: 8px;
+    background-color: #2ACFCF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #fff;
+}
