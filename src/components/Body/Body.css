@@ -5,7 +5,7 @@
 
 .container {
     background-color: #EBE9E9;
-    min-height: 860px;
+    min-height: 1050px;
 }
 
 .body-wrapper {
@@ -16,16 +16,16 @@
 }
 
 .heading h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Roboto', sans-serif;
-    margin-top: 100px;
+    margin-top: 230px;
     margin-bottom: 20px;
 }
 
 .para {
     width: 500px;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     color: gray;
     font-weight: 500;
