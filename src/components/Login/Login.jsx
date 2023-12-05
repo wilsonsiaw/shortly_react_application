@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Login.css';
 import back from '../../assets/images/back.svg'
+import { Link } from 'react-router-dom';
 
 const Login = () => {
 
@@ -25,10 +26,10 @@ const Login = () => {
   return (
     <div className='loginContainer'>
       <div className='back'>
-          <a href="">
+          <Link to='/'>
             <img src={back} alt="back arrow" />
             <p>Back</p>
-          </a>
+          </Link>
         </div>
       <div className="formWrapper">
         <div className="loginContent">
@@ -50,14 +51,14 @@ const Login = () => {
             <input type="password" id='password' name='password' value={formData.password} onChange={handleChange}/>
           </label>
           <div className="forgot">
-            <a href="">Forgot password?</a>
+            <Link to='/Password'>Forgot password?</Link>
           </div>
           <div className="loginBtn">
             <button type='submit'>Login</button>
           </div>
           <div className='signup'>
             <p>Don't have an account yet?</p>
-            <a href="">Sign Up</a>
+            <Link to='/Signup'>Sign Up</Link>
           </div>
         </form>
       </div>
