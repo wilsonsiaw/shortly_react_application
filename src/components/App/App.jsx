@@ -10,6 +10,7 @@ import Signup from '../Signup/Signup';
 import Password from '../Password/Password';
 import { Routes, Route } from 'react-router-dom';
 import Home from '../Login/Home/Home';
+import Url from '../Url/Url';
 
 function App() {
 
@@ -19,7 +20,6 @@ function App() {
         <Route index path='/' element={<Home />}/>
         <Route path='Signup' element={<Signup />}/>
         <Route path='Login' element={<Login />}/>
-        <Route path='Signup' element={<Signup />}/>
         <Route path='Password' element={<Password />}/>
       </Routes>
     </div>
