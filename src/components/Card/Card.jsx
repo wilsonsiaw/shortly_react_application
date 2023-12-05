@@ -40,7 +40,10 @@ const Card = () => {
             Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
           </p>
         </div>
-        
+      </div>
+      <div className='hLine'>
+        <div></div>
+        <div className='line2'></div>
       </div>
     </div>
   )
