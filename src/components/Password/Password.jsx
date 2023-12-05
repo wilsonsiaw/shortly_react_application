@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './Password.css';
 import newArrow from '../../assets/images/back.svg';
+import { Link } from 'react-router-dom';
 
 const Password = () => {
 
@@ -42,10 +43,10 @@ const Password = () => {
                 <button type='submit'>Send Recovery Code</button>
             </div>
             <div className="backTo">
-                <a href="">
+                <Link to='/Login'>
                     <img src={newArrow} alt="back arrow" />
                     <p>Back to sign in</p>
-                </a>
+                </Link>
             </div>
           </form>
       </div>
