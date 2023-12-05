@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Signup.css';
 import backArrow from '../../assets/images/back.svg'
+import { Link } from 'react-router-dom';
 
 
 
@@ -28,10 +29,10 @@ const Signup = () => {
   return (
     <div className="signupContainer">
         <div className="backArrow">
-            <a href="">
+            <Link to='/'>
                 <img src={backArrow} alt="back arrow" />
                 <p>Back</p>
-              </a>
+            </Link>
         </div>
         <div className='signupWrapper'>
           <form action="" onSubmit={handleSignUp}>
@@ -67,7 +68,7 @@ const Signup = () => {
             </div>
             <div className="account">
                 <p>Already have an account?</p>
-                <a href="">Sign in</a>
+                <Link to="/Login">Sign in</Link>
             </div>
           </form>
         </div>
