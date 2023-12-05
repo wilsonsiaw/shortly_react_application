@@ -1,8 +1,12 @@
 import React from 'react';
 import './Hero.css';
 import heroImage from '../../assets/images/illustration-working.svg';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+
+    const navigate = useNavigate()
+
   return (
     <div className='hero-wrapper'>
         <div className="content">
@@ -15,7 +19,7 @@ const Hero = () => {
                 </p>
             </div>
             <div className='hero-btn'>
-                <button type='button'>Get Started</button>
+                <button type='button' onClick={() => navigate('Signup')}>Get Started</button>
             </div>
         </div>
         <div className='img'></div>
